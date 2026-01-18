@@ -43,47 +43,6 @@ Para rodar este script, você precisa ter:
     python aplicacao.py
 
 
-    # Nome do Projeto 🤖
-
-![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
-
-## 📝 Sobre
-Uma breve descrição do problema que este projeto resolve.
-*Exemplo: Automação desenvolvida para extrair dados do site X, processar com Pandas e salvar em um banco PostgreSQL diariamente.*
-
-## 🛠️ Tecnologias Utilizadas
-- **Linguagem:** Python
-- **Bibliotecas:** Pandas, Selenium, SQLAlchemy
-- **Banco de Dados:** PostgreSQL
-- **Infra:** AWS Lambda / Docker
-
-## ⚙️ Funcionalidades
-- [x] Login automático no portal administrativo
-- [x] Extração de relatórios em PDF
-- [x] Tratamento de dados (remoção de duplicatas)
-- [x] Envio de alerta via Email/Slack em caso de erro
-
-## 🚀 Como Rodar o Projeto
-
-### Pré-requisitos
-* Python 3.10+
-* Docker (Opcional)
-
-### Instalação
-```bash
-# Clone o repositório
-git clone [https://github.com/lucassantoss4/nome-do-projeto.git](https://github.com/lucassantoss4/nome-do-projeto.git)
-
-# Entre na pasta
-cd nome-do-projeto
-
-# Instale as dependências
-pip install -r requirements.txt
-
-# Configure as variáveis de ambiente
-cp .env.example .env
-# (Edite o arquivo .env com suas credenciais)
 
 # Execute
 python src/main.py
